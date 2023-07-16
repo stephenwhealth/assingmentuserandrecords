@@ -1,0 +1,22 @@
+{
+  "name": "useraccountverification",
+  "version": "1.0.0",
+  "description": "",
+  "main": "stephen.js",
+  "scripts": {
+    "start": "node stephen.js",
+    "dev": "nodemon stephen.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.3.4",
+    "nodemailer": "^6.9.3",
+    "nodemon": "^3.0.1"
+  }
+}
